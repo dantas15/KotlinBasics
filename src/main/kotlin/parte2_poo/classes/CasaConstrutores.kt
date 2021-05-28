@@ -3,7 +3,7 @@ package parte2_poo.classes
 // Utilizando construtor primário podemos:
 // - Declarar as propriedades
 // - atribuir os valores às propriedades
-class CasaComConstrutores (cor: String, vagasGaragem: Int) {
+class CasaComConstrutores (var cor: String, var vagasGaragem: Int) {
 
     /* Utilizando construtor secundário temos que:
     // - Declarar as propriedades
